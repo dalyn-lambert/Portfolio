@@ -1,7 +1,9 @@
 import About from '@/Components/About';
 import FeaturedProject from '@/Components/FeaturedProject';
 import Header from '@/Components/Header';
-import ProfessionalExperience from '@/Components/Professional Experience';
+import ProfessionalExperience from '@/Components/ProfessionalExperience';
+import Skills from '@/Components/Skills';
+import UsabilityReport from '@/Components/UsabilityReport';
 
 export default function Home() {
   return (
@@ -11,8 +13,8 @@ export default function Home() {
         <FeaturedProject />
         <About />
         <ProfessionalExperience />
-        <span>Usability Report</span>
-        <span>Skills</span>
+        <UsabilityReport />
+        <Skills />
         <span>Education</span>
         <span>Contact</span>
         <span>Download my resume</span>
