@@ -3,7 +3,7 @@ import ArrowIcon from '@/app/Icons/Arrow';
 const ProfessionalExperience = () => {
   return (
     <div className='bg-slate-200 text-black p-2 rounded-md flex flex-col'>
-      <span className='font-bold'>Professional Experience</span>
+      <span className='font-bold text-lg'>Professional Experience</span>
       <span>Full-Stack Engineering Intern</span>
       <span>NativShark, May - December 2023</span>
       <div className='flex flex-row gap-2'>

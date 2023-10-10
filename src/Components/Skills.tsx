@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className='bg-slate-200 text-black p-2 rounded-md flex flex-col'>
-      <span className='font-bold'>Skills</span>
+      <span className='font-bold text-lg'>Skills</span>
       <div>
         <span className='font-bold'>Languages: </span>
         <span>JavaScript, TypeScript, HTML, CSS, SQL, Python</span>

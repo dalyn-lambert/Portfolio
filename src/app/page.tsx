@@ -1,7 +1,10 @@
 import About from '@/Components/About';
+import Contact from '@/Components/Contact';
+import Education from '@/Components/Education';
 import FeaturedProject from '@/Components/FeaturedProject';
 import Header from '@/Components/Header';
 import ProfessionalExperience from '@/Components/ProfessionalExperience';
+import Resume from '@/Components/Resume';
 import Skills from '@/Components/Skills';
 import UsabilityReport from '@/Components/UsabilityReport';
 
@@ -15,9 +18,9 @@ export default function Home() {
         <ProfessionalExperience />
         <UsabilityReport />
         <Skills />
-        <span>Education</span>
-        <span>Contact</span>
-        <span>Download my resume</span>
+        <Education />
+        <Contact />
+        <Resume />
       </div>
     </main>
   );
