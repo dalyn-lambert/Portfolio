@@ -11,8 +11,12 @@ const FeaturedProject = () => {
           <span className='text-2xl font-bold'>Japanese Stats</span>
         </div>
         <div className='flex flex-row gap-2 items-center'>
-          <InternetIcon />
-          <GitHubIcon />
+          <a href='https://japanese-stats.vercel.app/'>
+            <InternetIcon />
+          </a>
+          <a href='https://github.com/Dalyn-Boyd/Japanese-Stats'>
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div>Next.js - TypeScript - Notion API</div>
