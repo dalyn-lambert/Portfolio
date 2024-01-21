@@ -12,7 +12,7 @@ import Skills from '@/Components/Skills';
 export default function Home() {
   return (
     <main className=''>
-      <div className='max-w-md flex flex-col gap-2 rounded-md'>
+      <div className=' flex flex-col gap-2 rounded-md'>
         <ProjectFeatured />
         <About />
         <ProfessionalExperience />
