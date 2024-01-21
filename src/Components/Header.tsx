@@ -9,8 +9,12 @@ const Header = () => {
         <span className='text-sm'>Web Developer</span>
       </div>
       <div className='flex flex-row gap-2 items-center'>
-        <EnvelopeIcon />
-        <ResumeIcon />
+        <a href='/contact' target='_blank'>
+          <EnvelopeIcon />
+        </a>
+        <a href='/dalyn-lambert-resume.pdf' target='_blank'>
+          <ResumeIcon />
+        </a>
       </div>
     </div>
   );
