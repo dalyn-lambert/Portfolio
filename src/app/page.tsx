@@ -1,7 +1,6 @@
 import About from '@/Components/About';
 import Contact from '@/Components/Contact';
 import Education from '@/Components/Education';
-import Header from '@/Components/Header';
 import OpenSourceContribution from '@/Components/OpenSourceContribution';
 import ProfessionalExperience from '@/Components/ProfessionalExperience';
 import ProjectFeatured from '@/Components/ProjectFeatured';
@@ -12,9 +11,8 @@ import Skills from '@/Components/Skills';
 
 export default function Home() {
   return (
-    <main className='p-3'>
-      <div className='max-w-md bg-violet-400 p-4 flex flex-col gap-2 rounded-md'>
-        <Header />
+    <main className=''>
+      <div className='max-w-md flex flex-col gap-2 rounded-md'>
         <ProjectFeatured />
         <About />
         <ProfessionalExperience />

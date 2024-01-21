@@ -1,6 +1,5 @@
 import ArrowIcon from '@/app/Icons/Arrow';
 import GitHubIcon from '@/app/Icons/GitHub';
-import InternetIcon from '@/app/Icons/Internet';
 import Link from 'next/link';
 
 const ProjectLocalLegends = () => {
@@ -12,10 +11,10 @@ const ProjectLocalLegends = () => {
           <span className='font-bold text-lg'>Local Legends</span>
         </div>
         <div className='flex flex-row gap-2 items-center'>
-          <a target='_blank' href='https://toukei-time.vercel.app/home' rel='noopener noreferrer'>
+          {/* <a target='_blank' href='' rel='noopener noreferrer'>
             <InternetIcon />
-          </a>
-          <a target='_blank' href='https://github.com/Dalyn-Boyd/Toukei-Time' rel='noopener noreferrer'>
+          </a> */}
+          <a target='_blank' href='https://github.com/Dalyn-Boyd/Local-Legends' rel='noopener noreferrer'>
             <GitHubIcon />
           </a>
         </div>

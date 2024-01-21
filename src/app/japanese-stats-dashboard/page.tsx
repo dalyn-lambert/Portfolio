@@ -1,7 +1,9 @@
 export default function JapaneseStatsDash() {
   return (
-    <main className='p-3'>
-      <div className='max-w-md bg-violet-400 p-4 flex flex-col gap-2 rounded-md'>Japanese Stats Dash</div>
+    <main>
+      A fullstack webapplication built in Next.js using React written with TypeScript to display study statistics such
+      as hours studied in a given month. ● Makescallstoandretrieves data from the Notion API. ● Createsdynamic routes to
+      display language learning progress blog posts. ● Utilizes Visx to display graphical representations of data
     </main>
   );
 }

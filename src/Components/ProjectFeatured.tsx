@@ -1,12 +1,23 @@
 import ArrowIcon from '@/app/Icons/Arrow';
 import GitHubIcon from '@/app/Icons/GitHub';
 import InternetIcon from '@/app/Icons/Internet';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const ProjectFeatured = () => {
   return (
     <div className='bg-slate-200 text-black p-2 rounded-md flex flex-col gap-2'>
-      <div className='w-full h-52 bg-red-100 text-center'>Image</div>
+      <div className='flex flex-row justify-center'>
+        <Image
+          alt='Toukei Time Home Screen'
+          src={'/images/toukei-time-home.png'}
+          priority={true}
+          width='0'
+          height='0'
+          sizes='100vw'
+          className='w-44 h-auto'
+        />
+      </div>
       <div className='flex flex-row justify-between'>
         <div className='flex flex-col'>
           <span className='text-sm italic'>Featured Project</span>

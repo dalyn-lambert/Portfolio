@@ -12,10 +12,10 @@ const ProjectJapaneseStatsDash = () => {
           <span className='font-bold text-lg'>Japanese Stats Dashboard</span>
         </div>
         <div className='flex flex-row gap-2 items-center'>
-          <a target='_blank' href='https://toukei-time.vercel.app/home' rel='noopener noreferrer'>
+          {/* <a target='_blank' href='https://japanese-stats.vercel.app/' rel='noopener noreferrer'>
             <InternetIcon />
-          </a>
-          <a target='_blank' href='https://github.com/Dalyn-Boyd/Toukei-Time' rel='noopener noreferrer'>
+          </a> */}
+          <a target='_blank' href='https://github.com/Dalyn-Boyd/Japanese-Stats' rel='noopener noreferrer'>
             <GitHubIcon />
           </a>
         </div>
